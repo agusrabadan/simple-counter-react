@@ -1,0 +1,40 @@
+.semaforo {
+    display: flex; /* Hace que los elementos dentro del semáforo se distribuyan en una columna */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    height: 400px; /* Altura del semáforo */
+    background-color: black;
+    width: 20%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  
+  .luz {
+    width: 100px; /* Ancho de cada luz */
+    height: 100px; /* Altura de cada luz */
+    border-radius: 50%; /* Forma redonda */
+    margin: 15px; /* Espacio entre las luces */
+  }
+  
+  .luz.roja {
+    
+  
+    
+    background-color: red; /* Color rojo para la luz roja */
+  }
+  
+  .luz.amarilla {
+    
+    background-color: yellow; /* Color amarillo para la luz amarilla */
+  }
+  
+  .luz.verde {
+    background-color: green; /* Color verde para la luz verde */
+  }
+
+  .glow {
+    -webkit-box-shadow:0px 0px 40px 15px rgba(240,250,247,1);
+    -moz-box-shadow: 0px 0px 40px 15px rgba(240,250,247,1);
+    box-shadow: 0px 0px 40px 15px rgba(240,250,247,1);
+  }
