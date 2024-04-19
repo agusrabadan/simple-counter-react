@@ -4,8 +4,6 @@ import React, { useState } from "react";
 
     const [bright,setBright] = useState(null)
 
-
-    
     return(
         <div className="text-center container">
             <div class="semaforo">
@@ -13,12 +11,9 @@ import React, { useState } from "react";
                 <div onClick={()=>setBright("yellow")} className={"luz amarilla" + (bright === "yellow" ? " glow" : "")}></div>
                 <div onClick={()=>setBright("green")} className={"luz verde" + (bright === "green" ? " glow" : "")}></div>
             </div>
-            <button type="button" class="btn btn-success mt-3">Change</button>
+            <button  type="button" class="btn btn-success mt-3">Change</button>
         </div>
     )
 }
 
-export default Semaforo
-
-    
-
+export default Semaforo    
