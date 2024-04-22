@@ -6,9 +6,9 @@ import Semaforo from "./Semaforo";
 		return(
 			<div className="text-center mx-auto">
 				<Semaforo/>
+				
 			</div>
 		)
 	}
 	
-
-export default Home;
+	export default Home;
